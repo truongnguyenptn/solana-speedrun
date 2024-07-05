@@ -65,13 +65,11 @@ curve = SubResource("Curve_5mmp8")
 particle_flag_disable_z = true
 direction = Vector3(0, -1, 0)
 spread = 30.0
-gravity = Vector3(0, 800, 0)
 initial_velocity_min = 175.0
 initial_velocity_max = 250.0
 angular_velocity_min = -1440.0
 angular_velocity_max = 1440.0
-orbit_velocity_min = 0.0
-orbit_velocity_max = 0.0
+gravity = Vector3(0, 800, 0)
 scale_curve = SubResource("CurveTexture_2qilo")
 
 [sub_resource type="OggPacketSequence" id="OggPacketSequence_xny2i"]
@@ -133,5 +131,4 @@ fixed_fps = 0
 interpolate = false
 
 [node name="HitRandomAudioPlayerComponent" parent="." instance=ExtResource("3_6mltj")]
-max_distance = 300.0
 streams = Array[AudioStream]([SubResource("AudioStreamOggVorbis_0rhdk"), SubResource("AudioStreamOggVorbis_rnj72"), SubResource("AudioStreamOggVorbis_dkrb4"), SubResource("AudioStreamOggVorbis_v4xye"), SubResource("AudioStreamOggVorbis_02uxc")])
