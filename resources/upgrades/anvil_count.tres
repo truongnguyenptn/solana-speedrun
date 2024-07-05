@@ -7,4 +7,4 @@ script = ExtResource("1_l84o3")
 id = "anvil_count"
 max_quantity = 2
 name = "Anvil Count"
-description = "Adds 1 additional anvil."
+description = "Adds 1 additional Sonic weapon."

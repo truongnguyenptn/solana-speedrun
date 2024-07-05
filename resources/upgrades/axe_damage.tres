@@ -6,5 +6,5 @@
 script = ExtResource("1_3na14")
 id = "axe_damage"
 max_quantity = 0
-name = "Axe Damage"
-description = "Increases axe damage by 10%."
+name = "Godot Weapon Damage"
+description = "Increases Godot weapon damage by 10%."

@@ -8,5 +8,5 @@ script = ExtResource("1_ay6oy")
 ability_controller_scene = ExtResource("1_o0oog")
 id = "axe"
 max_quantity = 1
-name = "Axe"
-description = "Periodically sends out a spinning axe."
+name = "Godot weapon"
+description = "Periodically sends out a spinning Godot weapon."

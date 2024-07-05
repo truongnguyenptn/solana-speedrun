@@ -8,5 +8,5 @@ script = ExtResource("2_8atlb")
 ability_controller_scene = ExtResource("1_7m73i")
 id = "anvil"
 max_quantity = 1
-name = "Anvil"
-description = "Drops anvils randomly on enemies."
+name = "Sonic meteor"
+description = "Drops Sonic meteor randomly on enemies."

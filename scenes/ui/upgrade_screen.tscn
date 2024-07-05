@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://chneota78wylc"]
+[gd_scene load_steps=7 format=3 uid="uid://d2bp6mr6ijo6m"]
 
 [ext_resource type="Script" path="res://scenes/ui/upgrade_screen.gd" id="1_4fchq"]
 [ext_resource type="PackedScene" uid="uid://dip1pawdo0hbl" path="res://scenes/ui/ability_upgrade_card.tscn" id="1_rwh7c"]
@@ -65,10 +65,10 @@ script = ExtResource("1_4fchq")
 upgrade_card_scene = ExtResource("1_rwh7c")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-autoplay = "in"
 libraries = {
 "": SubResource("AnimationLibrary_7no0y")
 }
+autoplay = "in"
 
 [node name="ColorRect" type="ColorRect" parent="."]
 anchors_preset = 15

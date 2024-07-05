@@ -111,10 +111,10 @@ size = Vector2(30, 30)
 script = ExtResource("1_twjfq")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-autoplay = "swing"
 libraries = {
 "": SubResource("AnimationLibrary_gk0rc")
 }
+autoplay = "swing"
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_0axsr")
