@@ -16,9 +16,13 @@ script = ExtResource("2_v3adq")
 
 [node name="WalletService" type="Node" parent="."]
 script = ExtResource("5_f327g")
-use_generated = true
 
 [node name="WalletAdapter" type="WalletAdapter" parent="WalletService"]
+
+[node name="WalletService" type="Node" parent="WalletService"]
+script = ExtResource("5_f327g")
+
+[node name="WalletAdapter" type="WalletAdapter" parent="WalletService/WalletService"]
 
 [node name="NFTManager" type="Node" parent="."]
 script = ExtResource("6_b1bp1")
